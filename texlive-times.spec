@@ -1,12 +1,12 @@
-# revision 21993
+# revision 31835
 # category Package
 # catalog-ctan /fonts/urw/base35
-# catalog-date 2011-03-01 21:42:17 +0100
+# catalog-date 2012-06-06 22:57:48 +0200
 # catalog-license gpl
 # catalog-version undef
 Name:		texlive-times
-Version:	20110301
-Release:	2
+Version:	20120606
+Release:	1
 Summary:	URW "Base 35" font pack for LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/urw/base35
@@ -139,20 +139,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/tfm/cg/times/trr7j.tfm
 %{_texmfdistdir}/fonts/tfm/cg/times/trr8u.tfm
 %{_texmfdistdir}/fonts/tfm/cg/times/trr9t.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmb8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmbc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmbi8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmr8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmrc8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/ptmri8z.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmb.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmbi.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmbo.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmr.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmri.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmro.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmrre.tfm
-%{_texmfdistdir}/fonts/tfm/cspsfonts-adobe/times/rptmrrn.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/times/utmb7t.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/times/utmb8c.tfm
 %{_texmfdistdir}/fonts/tfm/urw35vf/times/utmb8r.tfm
@@ -237,12 +223,6 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %{_texmfdistdir}/fonts/vf/cg/times/ctmr8t.vf
 %{_texmfdistdir}/fonts/vf/cg/times/ctmri.vf
 %{_texmfdistdir}/fonts/vf/cg/times/ctmri8t.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmb8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmbc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmbi8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmr8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmrc8z.vf
-%{_texmfdistdir}/fonts/vf/cspsfonts-adobe/times/ptmri8z.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/times/utmb7t.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/times/utmb8c.vf
 %{_texmfdistdir}/fonts/vf/urw35vf/times/utmb8t.vf
@@ -281,16 +261,3 @@ Symbol); - URW Bookman; - URW Chancery L Medium Italic
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips fonts tex %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110301-2
-+ Revision: 756915
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110301-1
-+ Revision: 719748
-- texlive-times
-- texlive-times
-- texlive-times
-
